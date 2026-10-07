@@ -1,0 +1,6 @@
+{
+  "name": "TradingView Markets",
+  "description": "Financial markets overview featuring real-time quotes, interactive candlestick charts, sector heatmaps, screener tables, and technical analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

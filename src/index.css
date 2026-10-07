@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --tv-bg-primary: #131722;
+    --tv-bg-card: #1e222d;
+    --tv-bg-hover: #2a2e39;
+    --tv-border: #2a2e39;
+    --tv-text-primary: #d1d4dc;
+    --tv-text-muted: #787b86;
+    --tv-up: #089981;
+    --tv-down: #f23645;
+    --tv-blue: #2962ff;
+  }
+
+  .theme-light {
+    --tv-bg-primary: #f8f9fd;
+    --tv-bg-card: #ffffff;
+    --tv-bg-hover: #f0f3fa;
+    --tv-border: #e0e3eb;
+    --tv-text-primary: #131722;
+    --tv-text-muted: #787b86;
+    --tv-up: #089981;
+    --tv-down: #f23645;
+    --tv-blue: #2962ff;
+  }
+}
+
+/* Custom TradingView-styled minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 123, 134, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 123, 134, 0.5);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
